@@ -782,6 +782,23 @@ img {
   color: #000;
 }
 
+.main-list {
+  padding: 0;
+}
+
+.site-article {
+  border-radius: 10px;
+}
+
+
+.article-title-wrapper {
+  width: 404px;
+}
+
+.main-item {
+  padding-left: 17px;
+}
+
 .contact-link {
   font-size: 16px;
   font-weight: 500;
