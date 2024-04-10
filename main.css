@@ -686,7 +686,7 @@ img {
   
 }
 
-.input-name {
+/* .input-name {
   font-size: 16px;
   line-height: 18.96px;
   width: 343px; 
@@ -702,7 +702,7 @@ img {
 .input-number {
   font-size: 16px;
   line-height: 18.96px;
-  width: 343px; 
+  width: 284px; 
   border-radius: 10px;
   border: 1px solid #00000033;
   padding-block: 18px;
@@ -745,7 +745,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 .address-list {
   width: 494px; 
@@ -799,7 +799,9 @@ img {
   padding-left: 17px;
 }
 
-.contact-link {
+/* .contact-link {
+  display: inline-block;
+  
   font-size: 16px;
   font-weight: 500;
   line-height: 18.96px;
@@ -810,12 +812,117 @@ img {
   border-radius: 10px;
   text-decoration-line: none;
   text-align: center;
-}
+} */
 
 .form-wrapper {
   margin-bottom: 20px;
 }
 
-.contact-link-wrap {
-  text-align: center;
+.button-contact-list {
+  display: flex;
+  margin-inline: auto;
+  color: #fff;
+  font-weight: 500;
+  padding: 17px 30px;
+  text-decoration-line: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #7297EF;
+  font-size: 16px;
+
+}
+
+
+.name-wrap {
+  
+}
+
+.input-name {
+  width: 343px;
+  padding-block: 18px;
+  padding-left: 20px;
+  border-radius: 10px;
+  border: 1px solid #00000033;
+  font-size: 16px;
+  line-height: 18.96px;
+  margin-right: 10px;
+}
+
+.number-wrap {
+  
+}
+
+.input-number {
+  width: 343px;
+  font-size: 16px;
+  line-height: 18.96px;
+  padding-block: 18px;
+  padding-left: 20px;
+  border: 1px solid #00000033;
+  border-radius: 10px;
+  
+}
+
+.input-box {
+  display: flex;
+  margin-bottom: 10px;
+  
+}
+
+.email-wrap {
+  margin-bottom: 10px;
+}
+
+.input-email {
+  width: 696px;
+  border-radius: 10px;
+  border: 1px solid #00000033;
+  padding-block: 18px;
+  padding-left: 20px;
+  line-height: 18.96px;
+  font-size: 16px;
+  
+}
+
+.text-wrap {
+
+}
+
+.input-text-area {
+  width: 696px;
+  border-radius: 10px;
+  border: 1px solid #00000033;
+  padding-block: 18px;
+  padding-left: 20px;
+  line-height: 18.96px;
+  font-size: 16px;
+  
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.address-item {
+
+}
+
+.address-list {
+  padding-block: 40px;
+}
+
+.address-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.7px;
+  font-style: normal;
+  
+}
+
+.address-link {
+  font-size: 16px;
+  line-height: 18.96px;
+  font-style: normal;
+  
 }
