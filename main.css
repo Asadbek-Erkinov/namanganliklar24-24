@@ -820,7 +820,7 @@ img {
 
 .button-contact-list {
   display: flex;
-  margin-inline: auto;
+  margin-left: auto;
   color: #fff;
   font-weight: 500;
   padding: 17px 30px;
@@ -890,9 +890,10 @@ img {
 
 .input-text-area {
   width: 696px;
+  height: 200px;
   border-radius: 10px;
   border: 1px solid #00000033;
-  padding-block: 18px;
+  padding-top: 18px;
   padding-left: 20px;
   line-height: 18.96px;
   font-size: 16px;
